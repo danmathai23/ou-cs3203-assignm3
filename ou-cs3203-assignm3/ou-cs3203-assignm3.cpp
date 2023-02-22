@@ -1,10 +1,11 @@
 // ou-cs3203-assignm3.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+//Assignment 3: Attempt 3
 
 #include <iostream>
 #include <vector>
 
 using namespace std;
+
 class Math
 {
 public:
