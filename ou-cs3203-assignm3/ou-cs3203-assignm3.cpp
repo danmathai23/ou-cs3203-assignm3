@@ -9,7 +9,7 @@ class Math
 {
 public:
 	int Add(vector<int> list);
-	//int Multiply(vector<int> list);
+	int Multiply(vector<int> list);
 	//vector<int> toReverse(vector<int> list);
 private:
 	int sum = 0;
@@ -25,7 +25,7 @@ int Math::Add(vector<int> list) {
 	}
 	return sum;
 }
-/*
+
 int Math::Multiply(vector<int> list) {
 
 	for (int i = 0; i < list.size(); i++) {
@@ -33,7 +33,7 @@ int Math::Multiply(vector<int> list) {
 	}
 	return product;
 }
-
+/*
 vector<int> Math::toReverse(vector<int> list) {
 	vector<int> result;
 	result = list;
