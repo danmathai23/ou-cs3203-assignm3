@@ -40,7 +40,7 @@ vector<int> Math::toReverse(vector<int> list) {
 	reverse(result.begin(), result.end());
 	return result;
 }
-
+*/
 int main()
 {
 	Math m;
@@ -62,15 +62,15 @@ int main()
 
 	int addRes = m.Add(OGList);
 	int productRes = m.Multiply(OGList);
-	result = m.toReverse(OGList);
+	//result = m.toReverse(OGList);
 
 
 	cout << addRes << endl;
 	cout << productRes << endl;
-
+	/*
 	for (int i = 0; i < result.size(); i++) {
 		cout << result[i] << endl;
 	}
-
+	*/
 	return 0;
-}*/
+}
