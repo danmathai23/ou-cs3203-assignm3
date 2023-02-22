@@ -10,7 +10,7 @@ class Math
 public:
 	int Add(vector<int> list);
 	int Multiply(vector<int> list);
-	//vector<int> toReverse(vector<int> list);
+	vector<int> toReverse(vector<int> list);
 private:
 	int sum = 0;
 	int product = 1;
@@ -33,14 +33,14 @@ int Math::Multiply(vector<int> list) {
 	}
 	return product;
 }
-/*
+
 vector<int> Math::toReverse(vector<int> list) {
 	vector<int> result;
 	result = list;
 	reverse(result.begin(), result.end());
 	return result;
 }
-*/
+
 int main()
 {
 	Math m;
@@ -62,15 +62,15 @@ int main()
 
 	int addRes = m.Add(OGList);
 	int productRes = m.Multiply(OGList);
-	//result = m.toReverse(OGList);
+	result = m.toReverse(OGList);
 
 
 	cout << addRes << endl;
 	cout << productRes << endl;
-	/*
+	
 	for (int i = 0; i < result.size(); i++) {
 		cout << result[i] << endl;
 	}
-	*/
+	
 	return 0;
 }
